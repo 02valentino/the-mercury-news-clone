@@ -1,0 +1,92 @@
+.header-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.top-screen {
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 3rem;
+    margin: 0;
+    white-space: nowrap;
+}
+
+@media (max-width: 64.5em) {
+    .logo {
+        font-size: 2.5rem;
+    }
+}
+
+.date {
+    font-family: "Noto Sans", Helvetica, sans-serif;
+}
+
+.e-Edition {
+    font-weight: 500;
+    text-decoration: none;
+    color: #0a0908;
+    font-size: 0.775rem;
+}
+
+.e-Edition:hover {
+    text-decoration: underline;
+}
+
+.bi-sun {
+    vertical-align: middle;
+}
+
+nav.nav a {
+    font-size: 0.9375em;
+    font-weight: 650;
+    color: #0a0908;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+nav.nav a:hover {
+    text-decoration: underline;
+}
+
+.btn-lg {
+    width: 7.5em;
+    height: 3em;
+    font-size: 0.9rem;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    background-color: #006394;
+    border-radius: 4px;
+}
+
+.widget-title {
+    font-weight: bold;
+    color: #006394;
+    font-size: 0.878rem;
+    margin-right: 2.35rem;
+}
+
+.widget-item {
+    white-space: nowrap;
+    font-weight: normal !important;
+    color: gray;
+    text-decoration: none !important;
+    font-size: 1.1rem;
+    margin-right: 2px !important;
+}
+
+.widget-item:hover {
+    color: #006394;
+}
+
+
+.container-fluid.d-lg-none {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    background-color: white;
+}
+
+
