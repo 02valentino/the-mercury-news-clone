@@ -69,7 +69,7 @@ nav.nav a:hover {
 }
 
 .widget-item {
-    white-space: nowrap;
+    white-space: nowrap !important;
     font-weight: normal !important;
     color: gray;
     text-decoration: none !important;
@@ -81,7 +81,6 @@ nav.nav a:hover {
     color: #006394;
 }
 
-
 .container-fluid.d-lg-none {
     position: sticky;
     top: 0;
@@ -89,4 +88,27 @@ nav.nav a:hover {
     background-color: white;
 }
 
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1050;
+    display: none;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+
+.sticky-header.show {
+    display: block;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+.header-wrapper.hide {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
 
