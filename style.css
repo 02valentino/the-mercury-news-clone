@@ -104,11 +104,10 @@ nav.nav a:hover {
     opacity: 1;
 }
 
-
-
 .header-wrapper.hide {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
 }
+
 
