@@ -110,3 +110,97 @@ nav.nav a:hover {
     pointer-events: none;
 }
 
+
+.header-banners {
+    height: 150px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0px, 0px, 0px, 0px);
+    white-space: nowrap;
+    border: 0;
+}
+
+.article-title{
+    text-decoration: none;
+    color: #0a0908;
+    font-weight: 500;
+}
+
+.main-title-metered {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.excerpt {
+    font-size: 1.1rem;
+}
+
+.feature-large figure{
+    margin-bottom: 0.3rem;
+}
+.primary-related-title {
+    padding-top: 7px;
+    font-size: 0.8rem;
+    color: #494545;
+}
+
+.entry-title {
+    font-weight: 50;
+    font-size: 1.15rem;
+    margin-bottom: 0;
+}
+
+.headline-list {
+    font-size: 0.8rem;
+}
+
+.headline-list-title {
+    color: #0a0908;
+    font-weight: 370;
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.2rem solid #006da3;
+}
+
+.headline-list ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.headline-feature-secondary.article-title{
+    font-size: 1rem !important;
+}
+
+.headline-feature-secondary{
+    border-top: 1px solid #d8cccc;
+    margin-top: 0.7rem;
+    padding-top: 1rem;
+}
+
+.social-links {
+    background-color: #F1EFEB;
+}
+
+.social-links a {
+    text-decoration-line: none;
+}
+
+.prompt {
+    font-size: 1rem;
+}
+
+.newsletter-button {
+    font-size: 1.1rem;
+    border: none;
+    background-color: #006394;
+    color: #fff;
+    border-radius: 4px;
+}
