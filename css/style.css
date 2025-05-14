@@ -275,3 +275,58 @@ nav.nav a:hover {
     font-size: 1rem;
     font-weight: 650;
 }
+
+.media-content-slideshow ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.dfm-title-metered-s {
+    font-size: 2rem;
+}
+
+.btn {
+    color: #fff;
+    background-color: #006394;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #0b6ca5;
+    text-decoration: underline;
+}
+
+.footer-smaller i {
+    color: #959494;
+}
+
+.feature-media-video a {
+    text-decoration: none;
+}
+.feature-media-video h2 {
+    border-bottom: 2px solid #006394;
+}
+
+.btn.btn-link {
+    background-color: transparent;
+    color: #006394;
+}
+
+.show-more-border {
+    color: #989797;
+    border-width: 2px;
+    height: 1px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.show-more-arrow {
+    top: -12px;
+    font-size: 2rem;
+    color: #a1a0a0;
+    background: transparent;
+    padding: 0 10px;
+}
