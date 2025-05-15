@@ -81,6 +81,10 @@ nav.nav a:hover {
     color: #006394;
 }
 
+a:hover {
+    color: #006394;
+}
+
 .container-fluid.d-lg-none {
     position: sticky;
     top: 0;
