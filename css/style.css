@@ -330,3 +330,7 @@ nav.nav a:hover {
     background: transparent;
     padding: 0 10px;
 }
+
+.last-section h2 {
+    border-bottom: 2px solid #006394;
+}
